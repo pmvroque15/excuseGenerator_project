@@ -2,4 +2,15 @@
 
 body{
     background: white;
+    height: 100vh;
+    margin: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding: 2.5px;
 }
