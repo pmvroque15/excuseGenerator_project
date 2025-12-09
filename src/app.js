@@ -22,15 +22,13 @@ window.onload = function () {
   return randomIndex;
 }
 
-  let randomWho = who[getRandomArrayIndex(who)]
-  let randomAction = action[getRandomArrayIndex(action)]
-  let randomWhat = what[getRandomArrayIndex(what)]
-  let randomWhen = when[getRandomArrayIndex(when)]
+  let random = who[getRandomArrayIndex(who)] + " " + action[getRandomArrayIndex(action)] + " " + what[getRandomArrayIndex(what)] + " " + when[getRandomArrayIndex(when)]
+  // let randomAction = action[getRandomArrayIndex(action)]
+  // let randomWhat = what[getRandomArrayIndex(what)]
+  // let randomWhen = when[getRandomArrayIndex(when)]
 
 
-  document.getElementById("excuse1").innerHTML = randomWho;
-  document.getElementById("excuse2").innerHTML = randomAction;
-  document.getElementById("excuse3").innerHTML = randomWhat;
-  document.getElementById("excuse4").innerHTML = randomWhen;
+  document.getElementById("excuse1").innerHTML = random;
+
 
 };
